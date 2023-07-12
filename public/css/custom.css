@@ -1,0 +1,17 @@
+div.nice-select{
+    width: 100%;
+}
+
+div.nice-select > ul {
+    width: 100%;
+}
+
+li.active > span.page-link {
+    padding: 12px 16px;
+    font-size: 20px;
+}
+
+li.disabled > span.page-link {
+    padding: 12px 20px;
+    font-size: 20px;
+}

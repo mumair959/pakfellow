@@ -1,0 +1,7 @@
+
+RewriteOptions inherit
+RewriteEngine on
+RewriteCond %{SERVER_PORT} 80
+RewriteCond %{HTTP_HOST} ^pakfellow\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.pakfellow\.com$
+RewriteRule ^(.*)$ https://pakfellow.com$1 [R=301,L]
